@@ -2,8 +2,6 @@ import React,{useContext} from "react"
 import ThemeContext from "../Context/ThemeContext"
 import AppTheme from "../Color"
 
-
-
 const HeroSection=()=>{
     const theme=useContext(ThemeContext)[0]
     const currentTheme=AppTheme[theme]
@@ -22,7 +20,7 @@ const HeroSection=()=>{
                 padding:"10px 150px",
                 fontSize:"20px",
                 color:"#FFF",
-                border:'${currentTheme.border}'
+                border:`${currentTheme.border}`
             }}>Click Me</button>
         </div>
     )

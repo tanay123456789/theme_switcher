@@ -10,3 +10,4 @@ const AppTheme={
         border:"2px dashed #000"
     }
 }
+export default AppTheme;
