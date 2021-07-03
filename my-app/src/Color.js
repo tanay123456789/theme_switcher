@@ -1,7 +1,7 @@
 const AppTheme={
     light:{
         textColor:"white",
-        backgroundColor:"black",
+        backgroundColor:"#eeeeee",
         border:"2px solid #000"
     },
     dark:{
